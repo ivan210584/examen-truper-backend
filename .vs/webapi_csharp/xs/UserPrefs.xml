@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{A9AD0FD9-8C6F-4B9D-810E-205E23079ADF}|Default">
+  <MonoDevelop.Ide.ItemProperties.webapi__csharp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="webapi_csharp/Startup.cs">
+    <Files>
+      <File FileName="webapi_csharp/Models/UsuarioLogin.cs" Line="4" Column="30" />
+      <File FileName="webapi_csharp/Controllers/LoginController.cs" Line="111" Column="1" />
+      <File FileName="webapi_csharp/Repositorios/RPProductos.cs" Line="14" Column="57" />
+      <File FileName="webapi_csharp/Controllers/ClientesController.cs" Line="18" Column="1" />
+      <File FileName="webapi_csharp/Models/PedidosDetalleW.cs" Line="14" Column="42" />
+      <File FileName="webapi_csharp/Models/ProductoW.cs" Line="21" Column="1" />
+      <File FileName="webapi_csharp/Models/bdpruebaContext.cs" Line="178" Column="1" />
+      <File FileName="webapi_csharp/Models/DetalleProducto.cs" Line="7" Column="45" />
+      <File FileName="webapi_csharp/Controllers/ProductosController.cs" Line="17" Column="6" />
+      <File FileName="webapi_csharp/Controllers/PedidosController.cs" Line="22" Column="1" />
+      <File FileName="webapi_csharp/Models/DetallePedido.cs" Line="10" Column="44" />
+      <File FileName="webapi_csharp/Repositorios/RPPedidos.cs" Line="41" Column="10" />
+      <File FileName="webapi_csharp/Models/PedidosW.cs" Line="22" Column="1" />
+      <File FileName="webapi_csharp/Models/Clientes.cs" Line="13" Column="1" />
+      <File FileName="webapi_csharp/Models/UsuariosW.cs" Line="22" Column="1" />
+      <File FileName="webapi_csharp/Repositorios/RPClientes.cs" Line="41" Column="13" />
+      <File FileName="webapi_csharp/Startup.cs" Line="26" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="webapi_csharp" expanded="True">
+            <Node name="webapi_csharp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Modelos" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositorios" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Controllers/LoginController.cs" relfile="webapi_csharp/Controllers/LoginController.cs" line="111" column="1" />
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Controllers/PedidosController.cs" relfile="webapi_csharp/Controllers/PedidosController.cs" line="46" column="1" />
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Repositorios/RPPedidos.cs" relfile="webapi_csharp/Repositorios/RPPedidos.cs" line="59" column="1" />
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Repositorios/RPPedidos.cs" relfile="webapi_csharp/Repositorios/RPPedidos.cs" line="16" column="1" />
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Repositorios/RPPedidos.cs" relfile="webapi_csharp/Repositorios/RPPedidos.cs" line="31" column="1" />
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Controllers/PedidosController.cs" relfile="webapi_csharp/Controllers/PedidosController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/equipo/Projects/webapi_csharp/webapi_csharp/Repositorios/RPPedidos.cs" relfile="webapi_csharp/Repositorios/RPPedidos.cs" line="47" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
