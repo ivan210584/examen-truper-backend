@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using webapi_csharp.Modelos;
 using webapi_csharp.Models;
 using webapi_csharp.Repositorios;
 

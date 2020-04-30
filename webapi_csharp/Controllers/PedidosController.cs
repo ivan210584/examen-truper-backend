@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using webapi_csharp.Modelos;
 using webapi_csharp.Models;
 using webapi_csharp.Repositorios;
 
