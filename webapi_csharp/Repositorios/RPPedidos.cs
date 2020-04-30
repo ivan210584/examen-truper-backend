@@ -10,35 +10,6 @@ namespace webapi_csharp.Repositorios
 {
     public class RPPedidos
     {
-
-        public void Agregar(DetallePedido detallePedido)
-        {
-            bdpruebaContext context = new bdpruebaContext();
-
-            //Guardar el encabezado del pedido y obtener el id para heredarlo al detalle del pedido
-            PedidosW pedido = new PedidosW();
-            pedido.Total = detallePedido.grantotal;
-            pedido.DateSale = DateTime.Now.Date;
-            pedido.Username = detallePedido.usuario;
-            context.PedidosW.Add(pedido);
-            context.SaveChanges();
-
-            int idPedido = pedido.Id;
-
-            //Por cada uno de los productos guardar su detalle en PedidosDetalleW
-            foreach(DetalleProducto prod in detallePedido.detalleproductos)
-            {
-                PedidosDetalleW det = new PedidosDetalleW();
-                det.IdPedido = idPedido;
-                det.Sku = prod.sku;
-                det.Amout = prod.cantidad;
-                det.Price = prod.precioUnitario;
-                context.PedidosDetalleW.Add(det);
-                context.SaveChanges();
-            }
-
-        }
-
         public PedidosW ObtenerPedido(int id)
         {
             bdpruebaContext context = new bdpruebaContext();
